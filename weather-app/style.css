@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  /* Removed overflow: hidden for better scrolling */
+}
+
+.background {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, #74ebd5, #ACB6E5);
+  background-size: cover;
+  background-position: center;
+  transition: background 1s ease-in-out;
+  z-index: -1;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  padding-top: 80px;
+  color: white;
+}
+
+.app-title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.weather-card {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 30px;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+input {
+  padding: 12px;
+  width: 80%;
+  border-radius: 10px;
+  border: none;
+  font-size: 1em;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+  background: white;
+  color: #007BFF;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #d3f1ff;
+}
+
+#weatherResult {
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+
+#weatherResult img {
+  width: 80px;
+  margin: 10px 0;
+}
+
+/* Weather background styles */
+/* Background style variants using gradients */
+.sunny {
+  background: linear-gradient(to top, #ffe259, #ffa751); /* sunny yellow/orange */
+}
+
+.cloudy {
+  background: linear-gradient(to top, #d7d2cc, #304352); /* gray cloud style */
+}
+
+.rainy {
+  background: linear-gradient(to top, #4e54c8, #8f94fb); /* rainy blue-purple */
+}
+
+.clear {
+  background: linear-gradient(to top, #74ebd5, #ACB6E5); /* nice day */
+}
+
+.default {
+  background: linear-gradient(to bottom, #74ebd5, #ACB6E5); /* fallback */
+}
+
+#weatherAnimation {
+  margin: 20px auto;
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.sun {
+  width: 80px;
+  height: 80px;
+  background: #FFD93B;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+  animation: rotate 10s linear infinite;
+  box-shadow: 0 0 30px 10px rgba(255, 217, 59, 0.6);
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.cloud {
+  width: 120px;
+  height: 60px;
+  background: #bbb;
+  border-radius: 60px / 50px;
+  position: relative;
+  margin: 0 auto;
+  animation: cloudMove 6s ease-in-out infinite alternate;
+  box-shadow:
+    30px 0 0 0 #bbb,
+    60px 10px 0 0 #bbb,
+    90px 0 0 0 #bbb;
+}
+
+@keyframes cloudMove {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(10px); }
+}
+
+.raindrop {
+  width: 10px;
+  height: 20px;
+  background: #00aaff;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  animation: raindropFall 1s linear infinite;
+  opacity: 0.7;
+}
+
+.raindrop:nth-child(1) { left: 30%; animation-delay: 0s; }
+.raindrop:nth-child(2) { left: 50%; animation-delay: 0.3s; }
+.raindrop:nth-child(3) { left: 70%; animation-delay: 0.6s; }
+
+@keyframes raindropFall {
+  0% { bottom: 0; opacity: 0.7; }
+  80% { opacity: 1; }
+  100% { bottom: -40px; opacity: 0; }
+}
+.hourly-forecast {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  padding: 10px 0;
+  scroll-snap-type: x mandatory;
+}
+
+.hour-block {
+  flex: 0 0 auto;
+  background: rgba(255,255,255,0.15);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  min-width: 100px;
+  scroll-snap-align: center;
+  backdrop-filter: blur(6px);
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+
+.hour-block:hover {
+  transform: scale(1.05);
+}
+.sun {
+  width: 50px;
+  height: 50px;
+  background: yellow;
+  border-radius: 50%;
+  animation: spin 5s linear infinite;
+}
+
+.cloud {
+  width: 60px;
+  height: 40px;
+  background: #ccc;
+  border-radius: 50%;
+}
+
+.raindrop {
+  width: 6px;
+  height: 12px;
+  background: blue;
+  position: absolute;
+  top: 0;
+  animation: drop 1s linear infinite;
+}
+
+@keyframes drop {
+  0% { top: 0; opacity: 1; }
+  100% { top: 100px; opacity: 0; }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
