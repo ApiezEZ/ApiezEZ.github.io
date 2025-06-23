@@ -1,4 +1,3 @@
-# ApiezEZ.github.io
 # My University Portfolio
 
 Hi! I'm a 19-year-old student passionate about IT and coding. I'm building this portfolio as part of my application to pursue a degree at UKM.
