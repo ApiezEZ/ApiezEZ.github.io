@@ -17,6 +17,13 @@ Hi! I'm a 19-year-old student passionate about IT and coding. I'm building this 
 
 ### 📱 Weather App
 
+### 📱 Weather App
+
+![Weather App Screenshot])![Weather-app ss](https://github.com/user-attachments/assets/74257868-275d-423b-8601-7e7809460255)
+
+A simple weather app using HTML, CSS, and JavaScript...
+
+
 **Why I Made It:**  
 To explore APIs and learn how web applications interact with live data.
 
@@ -36,6 +43,8 @@ This project helped me understand how to use **JavaScript** to fetch external da
 ---
 
 ### 🗃️ Student Marks Database (Access)
+
+![Student Database]![Students Database ss](https://github.com/user-attachments/assets/5192902a-eed4-4692-834f-7ea583f7afc9)
 
 **Why I Made It:**  
 To learn the basics of database design and how to organize information logically.
