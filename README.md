@@ -1,80 +1,60 @@
 # 🎓 My University Portfolio
 
-Hi! I'm a 19-year-old student passionate about IT and coding. I'm building this portfolio as part of my application to pursue a degree at **UKM (Universiti Kebangsaan Malaysia)**.
+Hi! I'm a 19-year-old student passionate about IT and coding. This portfolio is part of my application to pursue a degree in Information Technology at **Universiti Kebangsaan Malaysia (UKM)**.
 
 ---
 
 ## 👨‍💻 About Me
 
-- Passionate about exploring technology and solving real-world problems  
-- I find coding fun, creative, and a great way to challenge myself  
-- Hoping to become a **web developer** or **software engineer**  
-- In my free time, I enjoy playing **basketball** and **swimming**
+- Enthusiastic about solving real-world problems through technology
+- Interested in front-end development, Java programming, and databases
+- My goal is to become a **web developer** or **software engineer**
+- I enjoy playing **basketball** and **swimming** during my free time
 
 ---
 
 ## 🧠 Projects
 
-### 📱 Weather App
+### 📱 Weather App  
+[🔗 Live Demo](https://apiezez.github.io/)
 
-### 📱 Weather App
+![Weather App Screenshot](https://github.com/ApiezEZ/ApiezEZ.github.io/raw/main/weather-app/Weather-app%20ss.jpg)
 
-![Weather App Screenshot])![Weather-app ss](https://github.com/ApiezEZ/ApiezEZ.github.io/blob/main/weather-app/Weather-app%20ss.jpg)
+A simple weather app built with **HTML**, **CSS**, and **JavaScript**.
 
-A simple weather app using HTML, CSS, and JavaScript...
-
-
-**Why I Made It:**  
-To explore APIs and learn how web applications interact with live data.
-
-**Purpose:**  
-This project helped me understand how to use **JavaScript** to fetch external data and update a webpage dynamically.
-
-**Tools & Tech Used:**  
-- **HTML, CSS & JavaScript**  
-- **OpenWeatherMap API** for real-time weather data  
-- Browser DOM manipulation and basic animations
-
-**Features:**  
-- City-based weather lookup  
-- Real-time temperature, humidity, wind  
-- Animated background and icons that change with weather conditions
+**Highlights:**
+- Uses **OpenWeatherMap API** to fetch real-time weather data
+- Users can search by city to get live temperature, humidity, and wind info
+- Animated background and icons based on weather conditions
 
 ---
 
 ### 🗃️ Student Marks Database (Access)
 
-![Student Database]![Students Database ss](https://github.com/user-attachments/assets/5192902a-eed4-4692-834f-7ea583f7afc9)
+![Student Marks Screenshot](https://github.com/user-attachments/assets/5192902a-eed4-4692-834f-7ea583f7afc9)
 
-**Why I Made It:**  
-To learn the basics of database design and how to organize information logically.
+A basic student information system designed in **Microsoft Access**.
 
-**Purpose:**  
-This project helped me understand data management, table structures, and querying without needing to write code.
-
-**Tools Used:**  
-- **Microsoft Access** (no SQL or programming)  
-- Simple interface with tables, forms, and queries
-
-**Features:**  
-- Basic student information system  
-- Stores and retrieves marks  
-- Simple data entry form and report view
+**Highlights:**
+- Stores student ID, names, CGPA, and pass/fail status
+- Uses forms and queries to view and manage data
+- Great for learning database structure and logic
 
 ---
 
-## 🔍 What I'm Exploring
+## 🔍 Learning Focus
 
-- **Front-end Web Development**  
-- **Programming Fundamentals (Java, JS)**  
-- **Databases and Software Design Concepts**
+- JavaScript and Web APIs  
+- Java (Object-Oriented Programming)  
+- Database Concepts (SQL & NoSQL)
 
 ---
 
 ## 🎯 My Goal
 
-To grow my IT skills further, explore new technologies, and eventually become a **professional software engineer or web developer** who builds meaningful and impactful digital solutions.
+To grow as a developer and create meaningful digital solutions that improve lives. I’m passionate about tech and excited to explore everything this field has to offer.
 
 ---
 
-📫 **Thank you for visiting my portfolio!**
+📫 **Email:** muhammadhafiz0611@gmail.com  
+🌐 **Portfolio Site:** [ApiezEZ.github.io](https://apiezez.github.io/)
