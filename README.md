@@ -19,7 +19,7 @@ Hi! I'm a 19-year-old student passionate about IT and coding. I'm building this 
 
 ### 📱 Weather App
 
-![Weather App Screenshot])![Weather-app ss]([https://github.com/user-attachments/assets/74257868-275d-423b-8601-7e7809460255](https://apiezez.github.io/))
+![Weather App Screenshot])![Weather-app ss]([[https://github.com/user-attachments/assets/74257868-275d-423b-8601-7e7809460255](https://apiezez.github.io/)](https://github.com/ApiezEZ/ApiezEZ.github.io/blob/main/weather-app/Weather-app%20ss.jpg))
 
 A simple weather app using HTML, CSS, and JavaScript...
 
